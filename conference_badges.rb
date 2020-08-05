@@ -2,9 +2,7 @@
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(speakers)
-  speakers.each do
-    puts "Hello, my name is #{sepakers}"
-  end
+  puts "Hello, my name is #{speakers}"
 end
 
 
