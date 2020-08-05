@@ -6,4 +6,5 @@ def badge_maker(speaker)
 end
 
 def batch_badge_creator(attendees)
-  attendees.each do |name|
+  attendees.each do |attendee|
+    puts ""
