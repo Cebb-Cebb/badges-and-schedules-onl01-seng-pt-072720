@@ -13,12 +13,7 @@ end
 
 def assign_rooms(attendees)
   attendees.each_with_index do |attendee, index|
-  
+  "Hello,#{attendee}! You'll be assigned to room#{index}!"
   end
   
     
-    hash = Hash.new
-%w(cat dog wombat).each_with_index { |item, index|
-  hash[item] = index
-}
-hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
